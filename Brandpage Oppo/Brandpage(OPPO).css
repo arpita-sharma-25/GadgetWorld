@@ -1,0 +1,255 @@
+/* MAIN LOGO */
+#oppoLogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:450px;
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 8px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%; 
+                              
+}
+
+
+#phonesSection1 {
+    width:35%;
+    height:280px;
+    margin: 5% 0 5% 0;
+    border-radius:5%;
+    transition: transform .2s;
+}
+
+#phonesSection1:hover {
+  transform: scale(1.1);
+}
+
+#css1 {
+  display: none;
+  width:40%;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  color: white;
+  background-color:black;
+  overflow: auto;
+}
+
+#phonesSection2 {
+    width:35%;
+    height:280px;
+    margin: 5% 0 5% 0;
+    border-radius:5%;
+    transition: transform .2s;
+}
+
+#phonesSection2:hover {
+  transform: scale(1.1);
+}
+
+#css2 {
+  display: none;
+  width:40%;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  color: white;
+  background-color:black;
+  overflow: auto;
+}
+
+#phonesSection3 {
+    width:35%;
+    height:280px;
+    margin: 5% 0 5% 0;
+    border-radius:5%;
+    transition: transform .2s;
+}
+
+#phonesSection3:hover {
+  transform: scale(1.1);
+}
+
+#css3 {
+  display: none;
+  width:40%;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  color: white;
+  background-color:black;
+  overflow: auto;
+}
+
+#phonesSection4 {
+    width:35%;
+    height:280px;
+    margin: 5% 0 5% 0;
+    border-radius:5%;
+    transition: transform .2s;
+}
+
+#phonesSection4:hover {
+  transform: scale(1.1);
+}
+
+#css4 {
+  display: none;
+  width:40%;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  color: white;
+  background-color:black;
+  overflow: auto;
+}
+
+/* EARBUDS SECTION */
+
+#EarbudsDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.earbudsSection{
+  height:200px;
+  width:15%;
+  margin:4.5%;
+  border-radius:10px;
+  border:2px solid grey;
+  transition: transform .2s;
+}
+
+.earbudsSection:hover {
+  transform: scale(1.1);
+}
+
+/* WATCHES SECTION */
+
+#accessoriesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.accessoriesSection{
+  height:400px;
+  width:30%;
+  margin:2% 2% 2% 12%;
+  border-radius:10px;
+  border:2px solid grey;
+  transition: transform .2s;
+}
+
+.accessoriesSection:hover {
+  transform: scale(1.1);
+}
+
+/* MORE SECTION */
+
+#lastcontent{
+    font-size: 30px;
+    font-weight: 100px;
+    color:white;
+    background-color:rgba(0, 107, 51, 1);
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+
+
+#link1:hover{
+  color:black;
+    font-size: 30px;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 107, 51, 1); 
+    color:black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+  font-size: 10px;
+  
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+  font-size: 10px;
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size:20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:16px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px;
+  
+}
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+

@@ -1,0 +1,329 @@
+/* MAIN LOGO */
+#OneplusLogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:450px;
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin-top:2%;
+  margin-bottom:2%;
+  width: 100%;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 8px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;                            
+}
+
+#PhoneDiv1{
+  margin:5%;
+}
+
+/* styling of div for javascript part*/
+
+table{
+  width: 100%;
+}
+
+.pic1{
+  height:250px;
+  width:260px;
+  margin: 5% 0 5% 0;
+  transition: transform .2s;
+}
+
+.pic1:hover {
+  transform: scale(1.1);
+}
+
+.css1{
+height:220px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic2{
+height:250px;
+width:260px;
+margin: 5% 0 5% 0;
+transition: transform .2s;
+}
+
+.pic2:hover {
+transform: scale(1.1);
+}
+
+.css2{
+height:220px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic3{
+height:250px;
+width:260px;
+margin: 5% 0 5% 0;
+transition: transform .2s;
+}
+
+.pic3:hover {
+transform: scale(1.1);
+}
+
+.css3{
+height:220px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic4{
+height:250px;
+width:260px;
+margin: 5% 0 5% 0;
+transition: transform .2s;
+}
+
+.pic4:hover {
+transform: scale(1.1);
+}
+
+.css4{
+height:220px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+/* EARBUDS SECTION */
+
+#EarbudsDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.airpodsSection{
+    height:50%;
+    width:40%;
+    margin:4%;
+    border:2px solid grey;
+    transition:transform .2s;
+}
+
+.airpodsSection:hover{
+  transform: scale(1.1);
+}
+
+/* Gears SECTION */
+
+#WatchesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.watchesSection{
+  height:200px;
+  width:15%;
+  margin:4.5%;
+  border-radius:10px;
+  border:2px solid grey;
+  transition:transform .2s;
+}
+.watchesSection:hover{
+  transform: scale(1.1);
+}
+
+/* Wearables SECTION */
+
+#WearablesDiv{
+    margin:5%;
+    border:5px solid black;
+}
+
+.WearablesSection{
+    height:250px;
+    width:20%;
+    margin:4.5%;
+    border-radius:10px;
+    border: 2px solid grey;
+    transition: transform .2s;
+}
+
+.WearablesSection:hover{
+  transform: scale(1.1);
+}
+
+/* TV SECTION */
+
+#TvDiv{
+    border:5px solid black;
+    margin:5%;
+    transition: transform .2s;
+}
+
+.Tv{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#Tv1{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+.TvSection{
+    height:250px;
+    width:400x;
+    margin-left:150px;
+    margin-top:13%;
+    margin-bottom:3%;
+    border-radius:20px;
+}
+
+/* JS Styling Part*/
+
+.TvSection1{
+  height:250px;
+  width:400px;
+  margin-top:75px;
+  margin-left:120px;
+  border-radius:20px;
+  border:2px solid;
+  background:url("https://fsa.zobj.net/crop.php?r=_Kak0rxthgNuQRRz-Z7VwY1roetu_ZvU8Yn9UIb6Tgy-AkkxwZGkA6Zdmc0jXnTBGv25MrtAOTWGykt3fMrilNIpt1obybOPZ7yTYx12t5D7xXYH0n-IjYtZ0l4IiuazPfYkD1pLStdehTXP") no-repeat center ;
+  display: none;
+  
+}
+
+#Tv2{
+  height:250px;
+  width:400px;
+  margin-left:150px;
+  margin-top:13%;
+  margin-right:80px;
+  margin-bottom:3%;
+  border-radius:20px;
+}
+
+#Content{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:15px;
+  margin-left: 30px;
+  color:rgb(240, 229, 229)
+}
+/* MORE SECTION */
+
+#lastcontent{
+    font-size: 30px;
+    font-weight: 100px;
+    color:white;
+    background-color: red;
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:red; 
+    color:white;
+}
+.abJ:hover{
+  color: black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+  font-size: 10px;
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+  font-size: 10px;
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size:20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:16px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px;
+  
+}
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+#link1:hover{
+  font-size: 30px;
+  color:black;
+}
+

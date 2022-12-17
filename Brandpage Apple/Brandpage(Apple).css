@@ -1,0 +1,312 @@
+/* MAIN LOGO */
+#AppleLogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:400px;
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 8px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;                             
+}
+/* styling of div for javascript part */
+#phonesSection1 {
+  width:200px;
+  height:280px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection1:hover {
+transform: scale(1.1);
+}
+
+#css1 {
+display: none;
+width:40%;
+height:300px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+#phonesSection2 {
+  width:200px;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection2:hover {
+transform: scale(1.1);
+}
+
+#css2 {
+display: none;
+width:40%;
+height:300px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+#phonesSection3 {
+  width:200px;
+  height:280px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection3:hover {
+transform: scale(1.1);
+}
+
+#css3 {
+display: none;
+width:40%;
+height:300px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+#phonesSection4 {
+  width:200px;
+  height:280px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection4:hover {
+transform: scale(1.1);
+}
+
+#css4 {
+display: none;
+width:40%;
+height:300px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+/* AIRPODS SECTION */
+
+#AirpodsDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.airpodsSection{
+  height:200px;
+  width:20%;
+  margin:2%;
+  border-radius: 20px;
+  border:2px solid grey;
+  transition:transform .2s;
+}
+.airpodsSection:hover{
+  transform: scale(1.1);
+}
+
+/* WATCHES SECTION */
+
+#WatchesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.watchesSection{
+  height:200px;
+  width:200px;
+  margin:4.5%;
+  border-radius:10px;
+  border:2px solid grey;
+  transition:transform .2s;
+}
+
+.watchesSection:hover{
+  transform: scale(1.1);
+}
+/* IPADS SECTION */
+
+#iPadsDiv{
+    margin:5%;
+    border:5px solid black;
+}
+
+.ipadSection{
+    height:200px;
+    width:15%;
+    margin:4.5%;
+    border-radius:10px;
+    transition:transform .2s;
+}
+
+.ipadSection:hover{
+  transform:scale(1.1);
+}
+/* LAPTOPS SECTION */
+
+#LaptopsDiv{
+    border:5px solid black;
+    margin:5%;
+}
+
+.Laptop{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#Laptop1{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+.laptopsSection{
+    height:250px;
+    width:430px;
+    margin:13% 0 3% 80px;
+    border-radius:20px;
+    border:3px solid black;
+}
+
+/* JS Styling Part*/
+
+.laptopsSection1{
+  height:250px;
+  width:400px;
+  margin:75px 0px 0px 120px;
+  border-radius:20px;
+  border:3px solid black;
+  background: url("https://wallpaperaccess.com/full/833179.jpg") no-repeat center ;
+  display: none;
+  
+}
+
+#laptop2{
+  height:250px;
+  width:400px;
+  margin:13% 80px 3% 150px;
+  border-radius:20px;
+  border:3px solid black;
+}
+
+#Content{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:15px;
+  margin-left: 30px;
+}
+/* MORE SECTION */
+
+#lastcontent{
+    font-size: 30px;
+    color:white;
+    background-color: rgb(2, 0, 0);
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#5e595994; 
+    color:black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+ 
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size:20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:16px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px;
+  
+}
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+#link1:hover{
+  font-size: 30px;
+}
+

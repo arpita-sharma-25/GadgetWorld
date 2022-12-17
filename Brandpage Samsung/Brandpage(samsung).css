@@ -1,0 +1,470 @@
+/* MAIN LOGO */
+#SamsungLogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:450px;
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 8px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+    overflow: auto;                       
+}
+
+.AA{
+  color: rgb(92, 91, 91);
+}
+
+#PhoneDiv1{
+  margin:5%;
+}
+
+
+/* styling of div for javascript part*/
+
+table{
+  width: 100%;
+}
+
+.pic1{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic1:hover {
+  transform: scale(1.1);
+}
+
+.css1{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic2{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic2:hover {
+transform: scale(1.1);
+}
+
+.css2{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic3{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic3:hover {
+transform: scale(1.1);
+}
+
+.css3{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic4{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic4:hover {
+transform: scale(1.1);
+}
+
+.css4{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic5{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic5:hover {
+transform: scale(1.1);
+}
+
+.css5{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic6{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic6:hover {
+transform: scale(1.1);
+}
+
+.css6{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic7{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic7:hover {
+transform: scale(1.1);
+}
+
+.css7{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic8{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic8:hover {
+transform: scale(1.1);
+}
+
+.css8{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic8{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic8:hover {
+transform: scale(1.1);
+}
+
+.css8{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic9{
+height:250px;
+width:220px;
+margin: 15px 0 15px 0;
+transition: transform .2s;
+}
+
+.pic9:hover {
+transform: scale(1.1);
+}
+
+.css9{
+height:320px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+/* EARBUDS SECTION */
+
+#Earbuds{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.earbudsSection{
+  height:200px;
+  width:15%;
+  margin:4.5%;
+  border-radius:10px;
+  transition: transform .2s;
+}
+
+.earbudsSection:hover {
+  transform: scale(1.1);
+}
+
+.earbudsSection2{
+  height:170px;
+  width:15%;
+  margin:4.5%;
+  margin-bottom: 6%;
+  border-radius:10px;
+  transition: transform .2s;
+}
+
+.earbudsSection2:hover {
+  transform: scale(1.1);
+}
+
+/* SMART TV'S SECTION */
+
+#Smart_tv{
+  border:5px solid rgb(0, 0, 0);
+  margin:5%;
+}
+
+.Smart_tvSection{
+  height:250px;
+  width:40%;
+  margin:4%;
+  transition: transform .2s;
+}
+
+.Smart_tvSection:hover {
+  transform: scale(1.1);
+}
+
+/* WATCHES SECTION */
+
+#WatchesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.watchesSection{
+  height:200px;
+  width:15%;
+  margin:4.5%;
+  border-radius:10px;
+  border:2px solid grey;
+  transition: transform .2s;
+}
+
+.watchesSection:hover {
+  transform: scale(1.1);
+}
+
+/* LAPTOPS SECTION */
+
+#LaptopsDiv{
+    border:5px solid black;
+    margin:5%;
+}
+
+.Laptop{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#Laptop1{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+.laptopsSection{
+    height:250px;
+    width:400x;
+    margin-left:150px;
+    margin-top:13%;
+    margin-bottom:3%;
+    border-radius:20px;
+    border:3px solid black;
+}
+
+/* JS Styling Part*/
+
+.laptopsSection1{
+  height:250px;
+  width:400px;
+  margin-top:75px;
+  margin-left:120px;
+  border-radius:20px;
+  border:3px solid black;
+  background: url("https://wallpaperaccess.com/full/833179.jpg") no-repeat center ;
+  display: none;
+  
+}
+
+#laptop2{
+  height:250px;
+  width:400px;
+  margin-left:150px;
+  margin-top:13%;
+  margin-right:80px;
+  margin-bottom:3%;
+  border-radius:20px;
+  border:3px solid black;
+}
+
+#Content{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:15px;
+  margin-left: 30px;
+}
+/* MORE SECTION */
+
+#lastcontent{
+    font-size: 30px;
+    font-weight: 100px;
+    color:white;
+    background-color: rgb(2, 0, 0);
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+#link1{
+  font-size: 30px;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#273436; 
+    color:black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+  font-size: 10px;
+  
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+  font-size: 10px;
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size:20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:16px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px;
+  
+}
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+

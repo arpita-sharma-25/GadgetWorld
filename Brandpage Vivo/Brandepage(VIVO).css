@@ -1,0 +1,401 @@
+/* MAIN LOGO */
+#vivoLogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:500px;
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 5px 10px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;  
+    overflow: auto;                           
+}
+
+.AA{
+  color: rgb(92, 91, 91);
+}
+
+table{
+    width: 100%;
+}
+
+.pic1{
+    height:250px;
+    width:220px;
+    margin: 15px 0 15px 0;
+    transition: transform .2s;
+}
+
+.pic1:hover {
+    transform: scale(1.1);
+}
+
+.css1{
+  height:260px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+  display: none;
+}
+
+.pic2{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic2:hover {
+  transform: scale(1.1);
+}
+
+.css2{
+height:280px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic3{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic3:hover {
+  transform: scale(1.1);
+}
+
+.css3{
+height:260px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic4{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic4:hover {
+  transform: scale(1.1);
+}
+
+.css4{
+height:260px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic5{
+  height:250px;
+  width:260px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic5:hover {
+  transform: scale(1.1);
+}
+
+.css5{
+height:240px;
+width:230px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic6{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic6:hover {
+  transform: scale(1.1);
+}
+
+.css6{
+height:260px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic7{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic7:hover {
+  transform: scale(1.1);
+}
+
+.css7{
+height:260px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic8{
+  height:250px;
+  width:190px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic8:hover {
+  transform: scale(1.1);
+}
+
+.css8{
+height:260px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic9{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic9:hover {
+  transform: scale(1.1);
+}
+
+.css9{
+height:260px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic10{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic10:hover {
+  transform: scale(1.1);
+}
+
+.css10{
+height:300px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic11{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic11:hover {
+  transform: scale(1.1);
+}
+
+.css11{
+height:300px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic12{
+  height:250px;
+  width:220px;
+  margin: 15px 0 15px 0;
+  transition: transform .2s;
+}
+
+.pic12:hover {
+  transform: scale(1.1);
+}
+
+.css12{
+height:300px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius: 5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+/* EARBUDS SECTION */
+
+#EarbudsDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.earbudsSection{
+  height:350px;
+  width:35%;
+  margin: 3% 32%;
+  position: relative;
+  border-radius:10px;
+  border:2px solid grey;
+  transition: transform .2s;
+}
+
+.earbudsSection:hover {
+  transform: scale(1.1);
+}
+
+/* MORE SECTION */
+
+#lastcontent{
+    font-size: 30px;
+    font-weight: 100px;
+    color:white;
+    background-color:rgba(0, 114, 184, 1);
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+#link1:hover{
+  font-size: 30px;
+  color: black;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 114, 184, 1); 
+    color:black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+  font-size: 10px;
+  
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+  font-size: 10px;
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size:20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:16px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px;
+  
+}
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+

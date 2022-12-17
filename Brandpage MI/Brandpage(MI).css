@@ -1,0 +1,308 @@
+/* MAIN LOGO */
+#MILogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:420px;
+  width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin:2% 0px 2% 0px;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 8px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid black;
+    margin:5%;                             
+}
+
+/* styling of div for javascript part*/
+#phonesSection1 {
+  width:45%;
+  height:280px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection1:hover {
+transform: scale(1.1);
+}
+
+#css1 {
+display: none;
+width:44%;
+height:160px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+#phonesSection2 {
+  width:50%;
+  height:280px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection2:hover {
+transform: scale(1.1);
+}
+
+#css2 {
+display: none;
+width:40%;
+height:140px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+#phonesSection3 {
+  width:50%;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection3:hover {
+transform: scale(1.1);
+}
+
+#css3 {
+display: none;
+width:40%;
+height:140px;
+margin: 5% 0 5% 0;
+border-radius:5%;
+color: white;
+background-color:black;
+overflow: auto;
+}
+
+#phonesSection4 {
+  width:50%;
+  height:300px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  transition: transform .2s;
+}
+
+#phonesSection4:hover {
+transform: scale(1.1);
+}
+
+#css4 {
+  display: none;
+  width:45%;
+  height:130px;
+  margin: 5% 0 5% 0;
+  border-radius:5%;
+  color: white;
+  background-color:black;
+  overflow: auto;
+  }
+
+/* EARPHONES SECTION */
+
+#EarphonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.EarphonesSection{
+    height:150px;
+    width:18%;
+    margin:3%;
+    border-radius: 10px;
+    transition:transform .2s;
+}
+.EarphonesSection:hover{
+  transform:scale(1.2);
+}
+/* WATCHES SECTION */
+
+#WatchesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.watchesSection{
+  height:200px;
+  width:15%;
+  margin:4.5%;
+  border-radius:10px;
+  border:2px solid grey;
+  transition:transform .2s;
+}
+.watchesSection:hover{
+  transform: scale(1.2);
+}
+
+/* TV SECTION */
+
+#TvDiv{
+    margin:5%;
+    border:5px solid black;
+}
+
+.TvSection{
+    height:300px;
+    width:35%;
+    margin:7%;
+    border-radius:10px;
+    transition:transform .2s;
+}
+.TvSection:hover{
+  transform: scale(1.2);
+}
+/* LAPTOPS SECTION */
+
+#LaptopsDiv{
+    border:5px solid black;
+    margin:5%;
+}
+
+.Laptop{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#Laptop1{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+}
+.laptopsSection{
+    height:250px;
+    width:400x;
+    margin:13% 0px 3% 150px ;
+    border-radius:20px;
+    border:3px solid black;
+}
+
+/* JS Styling Part*/
+
+.laptopsSection1{
+  height:250px;
+  width:400px;
+  margin:60px 0px 2px 120px;
+  border-radius:20px;
+  border:3px solid black;
+  background: url("https://www.xda-developers.com/files/2018/05/Xiaomi-Mi-Logo-810x298_c.jpg") no-repeat center ;
+  display: none;
+  
+}
+
+#laptop2{
+  height:250px;
+  width:400px;
+  margin:13% 80px 3% 150px;
+  border-radius:20px;
+  border:3px solid black;
+}
+
+#Content{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:15px; 
+  margin-left: 30px;
+}
+/* MORE SECTION */
+
+#lastcontent{
+    font-size: 30px;
+    font-weight: 100px;
+    color:white;
+    background-color:#ff5e00;
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#ff5e00; 
+    color:black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+  
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size :20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:20px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px;
+  
+}
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+#link1:hover{
+  color:black;
+  font-size: 30px;
+}

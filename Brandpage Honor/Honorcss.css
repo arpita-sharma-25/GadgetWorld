@@ -1,0 +1,286 @@
+/* MAIN LOGO */
+#HonorLogo{
+    border:3px dotted grey;
+    border-radius:30px;
+}
+
+/* SLIDESHOW SECTION */
+.mySlides {
+  height:450px;
+  width:100%;
+  max-height:100%;
+  max-width:100%;
+  border-radius:20px;
+}
+
+.slideShow{
+  position: relative;
+  margin-top:2%;
+  margin-bottom:2%;
+  width: 100%;
+}
+
+/* HEADINGS */
+h3{
+  margin:10px;
+  font-size: 8vh;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 8px #727272; 
+}
+
+/* PHONES SECTION */
+
+#PhonesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;                             
+}
+
+#PhoneDiv1{
+  margin:5%;
+}
+
+
+/* styling of div for javascript part*/
+table{
+  width: 100%;
+}
+
+.pic1{
+  height:250px;
+  width:220px;
+  margin: 5% 0 5% 0;
+  transition: transform .2s;
+}
+
+.pic1:hover {
+  transform: scale(1.1);
+}
+
+.css1{
+height:190px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic2{
+height:250px;
+width:220px;
+margin: 5% 0 5% 0;
+transition: transform .2s;
+}
+
+.pic2:hover {
+transform: scale(1.1);
+}
+
+.css2{
+height:190px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic3{
+height:250px;
+width:220px;
+margin: 5% 0 5% 0;
+transition: transform .2s;
+}
+
+.pic3:hover {
+transform: scale(1.1);
+}
+
+.css3{
+height:210px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+.pic4{
+height:250px;
+width:220px;
+margin: 5% 0 5% 0;
+transition: transform .2s;
+}
+
+.pic4:hover {
+transform: scale(1.1);
+}
+
+.css4{
+height:190px;
+width:220px;
+margin: 15px 0 15px 0;
+border-radius:5%;
+background-color: black;
+color: white;
+display: none;
+}
+
+/* AIRPODS SECTION */
+
+#WearablesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.wearablesSection{
+    height:300px;
+    width:30%;
+    margin:4%;
+    border:2px solid grey;
+    transition:transform .2s;
+}
+
+.wearablesSection:hover{
+  transform: scale(1.1);
+}
+
+/* WATCHES SECTION */
+
+#WatchesDiv{
+    border:5px solid rgb(0, 0, 0);
+    margin:5%;
+}
+
+.watchesSection{
+  height:200px;
+  width:15%;
+  margin:4.5%;
+  border-radius:10px;
+  border:2px solid grey;
+}
+
+/* Various SECTION */
+
+#VariousDiv{
+    margin:5%;
+    border:5px solid black;
+}
+
+.VariousSection{
+    height:200px;
+    width:15%;
+    margin:4.5%;
+    border-radius:10px;
+    transition: transform .2s;
+}
+.VariousSection:hover {
+  transform: scale(1.1);
+}
+
+.VariousSection1{
+    height:170px;
+    width:10%;
+    margin:4.5%;
+    border-radius:10px;
+    transition: transform .2s;
+}
+.VariousSection1:hover {
+  transform: scale(1.1);
+}
+
+.VariousSection2{
+    height:170px;
+    width:15%;
+    margin:4.5%;
+    border-radius:10px;
+    transition: transform .2s;
+}
+.VariousSection2:hover {
+  transform: scale(1.1);
+}
+
+#lastcontent1{
+    font-size: 30px;
+    font-weight: 100px;
+    color:white;
+    background-color: rgb(2, 0, 0);
+    height:40px;
+    width:50%;
+    border-radius:20px;
+}
+
+#lastcontent2:hover{
+  color: lighblue;
+  font-size: 30px;
+}
+
+#box4
+{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#273436; 
+    color:black;
+}
+
+#image
+{
+   align-items:center;
+   margin:100px;
+}
+
+.lastcontainer{
+  width: auto;
+  margin-top:50px;
+  font-size: 10px;
+  
+}
+
+.lastcontainer0{
+  width: auto;
+  margin-top:30px;
+  font-size: 10px;
+}
+
+li{
+  list-style-type:none;
+  margin: 1em ;
+  font-size:20px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+a:hover {
+  color: lightblue;
+  font-size:16px;
+}
+
+.lastcontainer1{
+  margin-top:100px;
+  padding-left:100px; 
+}
+
+/* Designing Social Icons */
+
+.fa{
+  padding:10px;
+  transition: transform .2s;
+}
+
+.fa:hover {
+  color:lightblue;
+  transform: scale(1.2);
+}
+
+
